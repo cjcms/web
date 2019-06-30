@@ -1,0 +1,25 @@
+@charset "utf-8";
+*{margin:0px;padding:0px;list-style:none;border:0px}
+.warp{ margin:0 auto;}
+.left{ float:left;}
+/*a:link{ color:#555555}
+a:hover{ color:#556fb8}*/
+/* CSS-Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,img{padding:0; margin:0;} 
+table,td,tr,th{ font-size:12px}
+table{border:1px solid gray; margin:0 auto;}
+td{border:1px solid gray;}
+li{list-style-type:none;list-style:none; }
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal; font-style:normal; font-size:12px}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+/* Í¨ÓÃÑùÊ½ */
+body{ height:100%;font-family:"微软雅黑"; font-size:12px;}
+
+a { text-decoration:none; blr:e-xpression(this.onFocus=this.blur()); color:#333; outline-style:none;} /* Õë¶ÔIE */
+a:hover { text-decoration: none;}
+a:focus { -moz-outline-style: none; } /*Õë¶Ôfirefox*/
+.fl{ float:left;}
+.fr{ float:right;}
+
